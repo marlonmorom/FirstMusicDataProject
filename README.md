@@ -35,3 +35,9 @@ you will have to change the connection code with your credentials.<br>
 And before running the ETL and test codes, it is good practice to run the create_tables.py file, in order to restart your tables.
 By default, postgreSQL does not prevent that you add the same row twice or more times.
 
+### Data Description
+
+The data is stored in JSON files. We can split the files in two categories: song data and log data.
+
+We have multiples folders for each category. In the song data folders, each subfolder represents one letter of the song data ID.<br>
+In the log folder, each file contains an event that was generated using  an event simulator, based on the songs from the song data files.
