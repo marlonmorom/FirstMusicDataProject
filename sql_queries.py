@@ -23,7 +23,7 @@ song_table_create = (""" CREATE TABLE IF NOT EXISTS songs(song_id VARCHAR PRIMAR
 artist_table_create = (""" CREATE TABLE IF NOT EXISTS artists(artist_id VARCHAR, artist_name VARCHAR, location VARCHAR, latitude FLOAT, longitude FLOAT)
 """)
 
-time_table_create = (""" CREATE TABLE IF NOT EXISTS time (start_time BIGINT , hour INT, day INT, week INT, month INT, year INT, weekday INT)
+time_table_create = (""" CREATE TABLE IF NOT EXISTS time (start_time BIGINT     , hour INT, day INT, week INT, month INT, year INT, weekday INT)
 """)
 
 # INSERT RECORDS
